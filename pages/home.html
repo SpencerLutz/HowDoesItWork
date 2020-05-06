@@ -11,19 +11,33 @@ permalink: /
 		font-family: Cornerstone;
 		src: url(Fonts/Cornerstone.ttf);
 	}
-	h1 {
+	#panel {
+	    position:relative;
+	    height: 800px;
+	    left: 2%;
+	    width: 96%;
+	    bottom: 20px;
+	    background: #140048;
+	    background-image: linear-gradient(180deg, #140048, #140048); /* Placeholder Gradient */
+	    border-radius: 20px;
+	}
+	h1.title {
 		color: white;
 		font: 48px Cornerstone, sans-serif;
-		margin-left: 20px;
+		margin-left: 2%;
 		margin-bottom: 2px;
 		word-spacing: -10px;
 	}
-	h4 {
+	h4.title {
 		color: white;
 		font: 18px Cornerstone, sans-serif;
-		margin-left: 20px;
+		margin-left: 2%;
 		margin-top: 2px;
-		margin-bottom:1000px; <!-- remember to fix this -->
+		margin-bottom:60px;
+	}
+	h4.button {
+		color: white;
+		font: 18px Cornerstone, sans-serif;
 	}
 	body {
 	  background-color: #BFFF00;
@@ -33,8 +47,13 @@ permalink: /
 </head>
 <body>
 
-<h1>How Does it Work?</h1>
-<h4>A project by Spencer Lutz</h4>
+<h1 class=title>How Does it Work?</h1>
+<h4 class=title>A project by Spencer Lutz</h4>
+
+<div id="panel">
+	<!-- <h4 class=button>Buttons will go here</h4> -->
+
+</div>
 
 </body>
 </html>
