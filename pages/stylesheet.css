@@ -9,14 +9,14 @@
     border-radius: 20px;
 }
 h1.title {
-	color: white;
+	color: 140048;
 	font: 48px Cornerstone, sans-serif;
 	margin-left: 2%;
 	margin-bottom: 2px;
 	word-spacing: -10px;
 }
 h4.title {
-	color: white;
+	color: 140048;
 	font: 18px Cornerstone, sans-serif;
 	margin-left: 2%;
 	margin-top: 2px;
@@ -30,15 +30,21 @@ body {
   	background-color: #BFFF00;
   	background-image: linear-gradient(19deg, #21D4FD, #B721FF);
 }
-.button {
-  	background-color: #4CAF50;
-  	border: none;
-  	color: white;
-  	padding: 15px 32px;
-  	text-align: center;
-  	text-decoration: none;
-  	display: inline-block;
-  	font-size: 16px;
-  	margin: 4px 2px;
-  	cursor: pointer;
+.lightmode {
+    border: 5px solid #140048;
+    border-radius: 10px;
+    background-image: url('Images/Sun.png');
+    background-size: contain;
+    text-align: center;
+    line-height: 72px;
+    font: 18px Cornerstone, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: #140048;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 32px;
+    width: 72px;
+    height: 72px;
 }
