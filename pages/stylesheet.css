@@ -1,7 +1,3 @@
-@font-face {
-	font-family: Cornerstone;
-	src: url(Cornerstone.ttf);
-}
 #panel {
     position:relative;
     height: 800px;
