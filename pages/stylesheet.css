@@ -43,7 +43,6 @@ body {
     height: 72px;
 }
 button.menu {
-
     border: 3px solid transparent;
     border-radius: 30px;
     font: 30px Cornerstone, sans-serif;
@@ -56,4 +55,8 @@ button.menu {
     position: absolute;
     width: 32%;
     height: 70px;
+    transition: .3s;
+}
+button.menu:hover {
+    transform: scale(1.07);
 }
